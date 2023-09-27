@@ -27,10 +27,6 @@ ros2 run racing_image_collect racing_image_collect
 ```
 
 
-# 原理简介
-
-地平线RDK通过摄像头获取小车前方环境数据，图像数据通过训练好的YOLO模型进行推理得到障碍物的图像坐标值并发布。
-
 # 接口说明
 
 ## 话题
