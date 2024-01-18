@@ -19,7 +19,14 @@ sudo apt update
 sudo apt install -y tros-racing-image-collect
 ```
 
-**2.运行数据集采集功能**
+**2.运行MIPI相机发布bgr8图像**
+
+```shell
+source /opt/tros/local_setup.bash
+ros2 launch mipi_cam mipi_cam_640x480_bgr8.launch.py
+```
+
+**3.运行数据集采集功能**
 
 ```shell
 source /opt/tros/local_setup.bash
